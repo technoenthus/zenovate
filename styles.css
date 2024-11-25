@@ -1,0 +1,171 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Contact Section */
+  .contact-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .map {
+    flex: 1;
+  }
+  
+  
+  .contact-form {
+    flex: 1;
+    background: linear-gradient(to bottom, #46D32C, #246D17);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+  }
+/* Styling for the heading */
+h1 {
+  font-size: 3.5em; 
+  font-weight: bold; 
+  color: white;
+  text-align: center; 
+  margin-top: 20px; 
+  font-family: 'Arial', sans-serif; 
+}
+
+  
+  .contact-form h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #999;
+  }
+  
+  .contact-form button {
+    padding: 10px;
+    background: white;
+    color: #246D17;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background: #246D17;
+    color: white;
+  }
+  
+  /* Footer */
+  footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .footer-content a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  .footer-content a:active{
+    transform: scale(0.9);
+    color:#fff;
+  }
+  
+  .footer-content a:hover {
+    color: #fff;
+  }
+  
+  .footer-copyright {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+
+
+
+
+
+/* Form input styling */
+input[type="email"],
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+/* Textarea for Message */
+textarea {
+  height: 150px;
+  resize: none;
+  
+
+}
+
+/* Input placeholders */
+input::placeholder,
+textarea::placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+/* Submit button styling */
+button[type="submit"] {
+  background-color: #fff;
+  color: #4CAF50;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect on button */
+button[type="submit"]:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+
