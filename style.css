@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.about-us {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-us h1 {
+    display: block;
+    font-size: 2.5rem;
+    background: linear-gradient(to right, #2FA1FF, #cd49f5, #FF66C4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent; /* Fallback for unsupported browsers */
+    margin:20px auto;
+    width:35vw;
+}
+
+.about-us p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    width:80vw;
+    display: block;
+    margin: auto;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.stat {
+    text-align: center;
+    padding: 20px;
+}
+
+.stat img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.stat img:hover {
+    transform: translateY(-5px); /* Slightly elevate the icon */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Add shadow to icon */
+}
+
+.stat h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.stat p {
+    font-size: 1.3rem;
+    font-family:"Rubik";
+    font-weight: 500;
+    color: #57b2fd;
+}
